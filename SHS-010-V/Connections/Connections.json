@@ -1,42 +1,4 @@
 {
-  "226a3a46-b08e-4c66-ac20-8f879f64f138": {
-    "appActions": [
-      "Run"
-    ],
-    "connectionRef": {
-      "apiTier": "Standard",
-      "displayName": "Logic flows",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
-      "parameterHints": {
-        "5d809d0c-f856-4cdc-aac2-b07088dcc01c": {
-          "value": "shared_sharepointonline"
-        },
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "f09929b3-3d40-4bf4-b415-95875a912656"
-        }
-      },
-      "parameterHintsV2": {
-        "shared_sharepointonline": {
-          "value": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
-        },
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "f09929b3-3d40-4bf4-b415-95875a912656"
-        }
-      }
-    },
-    "datasets": {},
-    "dataSources": [
-      "Exportflow"
-    ],
-    "dependencies": {
-      "shared_sharepointonline": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
-    },
-    "dependents": [],
-    "id": "226a3a46-b08e-4c66-ac20-8f879f64f138"
-  },
   "5d809d0c-f856-4cdc-aac2-b07088dcc01c": {
     "appActions": [
       "providers/PowerPlatform.Governance/Operations/Read",
@@ -121,8 +83,36 @@
     ],
     "dependencies": {},
     "dependents": [
-      "226a3a46-b08e-4c66-ac20-8f879f64f138"
+      "a877f5ea-38cb-49df-939b-940623370c66"
     ],
     "id": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
+  },
+  "a877f5ea-38cb-49df-939b-940623370c66": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "82992941-34a9-42fa-af98-7c417a76ed28"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "82992941-34a9-42fa-af98-7c417a76ed28"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "Exportflow"
+    ],
+    "dependencies": {
+      "shared_sharepointonline": "5d809d0c-f856-4cdc-aac2-b07088dcc01c"
+    },
+    "dependents": [],
+    "id": "a877f5ea-38cb-49df-939b-940623370c66"
   }
 }
