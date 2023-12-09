@@ -35,12 +35,12 @@
       "ID": "ID",
       "Modified": "Modified",
       "OData__ColorTag": "Color Tag",
+      "Perfomance_x0020_Year": "Perfomance Year",
+      "Perfomance_x0020_Year#Id": "Perfomance Year Id",
       "Quarter": "Quarter",
       "Quarter#Id": "Quarter Id",
       "StudyName": "Study Name",
-      "Title": "Study Code",
-      "Year": "Year",
-      "Year#Id": "Year Id"
+      "Title": "Study Code"
     },
     "DatasetName": "https://y00q1.sharepoint.com/sites/SHS-V07",
     "EncodeDataset": true,
